@@ -1,0 +1,48 @@
+*{
+    padding:2px;
+    margin:2px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height:100vh;
+    background-color:yellow;
+    background: cover;
+    overflow: hidden;
+}
+#mainheader{
+    border-radius: 10px;
+
+}
+#header-title{   
+   font-size:3rem;
+   font-weight: 700;
+   text-shadow: 2px 2px 2px #20da4e;
+}
+.container{
+    width:25%;
+    margin-top:7rem;
+
+}
+
+
+@media  screen and(max-width:800px) {
+    .container{
+        width:70%
+    }
+    
+}
+@media screen  and(max-width:650px){
+    .container{
+        width:80%px;
+    }
+    
+}
+@media screen and(max-width:500px){
+    .container{
+        width:99%
+    }
+    
+}
+    
